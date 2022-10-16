@@ -37,7 +37,7 @@ def start():
     print('Welcome to Choose Your Own Adventure Finance Game!\n')
     print('You are a broke college student who just started working part time at a movie theater for $15 an hour. \nThis is a day in your life. You must make wise decisions and manage your finances well.')
     updateAccount(0);
-    print('\nYou just woke up at 8:00 and you have a class at 8:30 but you are really tired.')
+    print('You just woke up at 8:00 and you have a class at 8:30 but you are really tired.')
     print('1. Get a $7 coffee and be 10 minutes late to class.')
     print('2. Go back to sleep.')
     print('3. Take the bus $3 and arrive on time.')
@@ -114,7 +114,7 @@ def start():
 def updateAccount(x):
     global account
     account = account + x
-    print('Bank Account: $' + str(account) + "\n")
+    print('\nBank Account: $' + str(account) + "\n")
 
 def atSchool():
     print('At school, your teacher mentions an opportunity to develop a simple app for him in Python and will pay $30.')
@@ -145,7 +145,6 @@ def atSchool():
 def scam():
     print('The concert ticket you tried to purchase last week turned out to be a scam. You lost $20.')
     print('Press 1 to continue...')
-    
     
     choice = getInput(1)
     
